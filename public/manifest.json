@@ -1,0 +1,26 @@
+{
+    "name": "Media Player PWA",
+    "short_name": "Media Player",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "background": {
+      "service-worker":"background.js"
+    },
+    "icons": [
+      {
+        "src": "icons/icon.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any"
+      },
+      {
+        "src": "icons/icon1.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "purpose": "any"
+  }
